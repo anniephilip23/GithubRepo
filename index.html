@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GithubRepoFinder</title>
+        <script src="script.js"></script>
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body style ='background-image: linear-gradient(rgb(185, 185, 245),rgb(213, 213, 248),rgb(245, 245, 248),white); background-repeat: no-repeat;background-size: cover;'>
+    <div class ='container-fluid'>
+        <div><h1 style="font-weight: bold; font-size:80px;font-family: Serif;color: rgb(6, 36, 82);padding-top:30px;height: 30%;margin-bottom: 2%;text-align:center">
+            GitHub Repositories Finder</h1> </div>
+        <div><p style="font-weight: bold; font-size:20px;font-family: Serif;font-style: italic;color: rgb(6, 34, 77);padding-top:30px;height: 10%;margin-bottom: 2%;text-align:center"> 
+            Search the GITHUB USER NAME to view their REPOSITORIES</p> </div>
+
+        <div style=" display:flex; height: 30%; margin:5%;justify-content: center;flex-direction:row;"><form>
+            <input type="text" id = 'search' placeholder="Search.." name="search"  >
+            <button type="button" onclick="myFunction()">Search</button>
+           </form></div>
+    </div>  
+    <div id ='repo'></div>
+   </body>
+</html>
